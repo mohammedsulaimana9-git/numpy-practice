@@ -39,3 +39,11 @@ for i in range(T):
     elif(M>N):
         print("0")
                 
+#code 5
+T= int(input())
+for i in range(T):
+    x = int(input())
+    if(x<30):
+        print("NO")
+    elif(x>=30):
+        print("YES")                
