@@ -29,3 +29,13 @@ for i in range(T):
         print("No")
     else:
         print("Yes")
+
+#code 4
+T=int(input())
+for i in range(T):
+    N,M = map(int,input().split())
+    if (M<=N):
+        print(N-M)
+    elif(M>N):
+        print("0")
+                
