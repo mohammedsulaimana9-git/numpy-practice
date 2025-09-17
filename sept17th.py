@@ -20,3 +20,12 @@ for i in range(Testcases):
         y = x-10
         print(y)
     
+# code 3
+
+T=int(input())
+for i in range(T):
+    x = int(input())
+    if(x<67 or x>45000):
+        print("No")
+    else:
+        print("Yes")
