@@ -46,4 +46,12 @@ for i in range(T):
     if(x<30):
         print("NO")
     elif(x>=30):
-        print("YES")                
+        print("YES")          
+
+#5 code 6
+x = int(input())
+if(x==17 ):
+    print("YAY")
+else:
+    print("NO")
+                  
