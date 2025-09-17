@@ -54,4 +54,13 @@ if(x==17 ):
     print("YAY")
 else:
     print("NO")
+
+# code 7
+# cook your dish here
+s = int(input())
+if (s>40):
+    print("YES")
+elif (s<=40 and s>0):
+    print("NO")
+    
                   
